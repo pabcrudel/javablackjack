@@ -1,6 +1,8 @@
 package version_1;
 
-public class Carta {
+import java.io.Serializable;
+
+public class Carta implements Serializable {
     private String palo;
     private String valor;
 

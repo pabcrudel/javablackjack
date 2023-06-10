@@ -1,11 +1,12 @@
 package version_1;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 
-public class Baraja {
+public class Baraja implements Serializable {
     private List<Carta> cartas;
 
     public Baraja() {
