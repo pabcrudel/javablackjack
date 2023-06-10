@@ -1,0 +1,73 @@
+# Ignore module-info.java because this is a small project
+module-info.java
+
+# Ignore Eclipse metadata
+.metadata/
+
+# Ignore compiled binary files
+bin/
+
+# Ignore temporary files
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Ignore Java class files
+*.class
+
+# Ignore local.properties file (used by some build tools)
+local.properties
+
+# Ignore Eclipse project settings
+.settings/
+
+# Ignore Eclipse loadpath file
+.loadpath
+
+# Ignore Eclipse recommenders file
+.recommenders
+
+# Ignore external tool builders
+.externalToolBuilders/
+
+# Ignore locally stored Eclipse launch configurations
+*.launch
+
+# Ignore PyDev specific files (Python IDE for Eclipse)
+*.pydevproject
+
+# Ignore CDT-specific files (C/C++ Development Tooling)
+.cproject
+.autotools
+
+# Ignore Java annotation processor (APT) file
+.factorypath
+
+# Ignore PDT-specific files (PHP Development Tools)
+.buildpath
+
+# Ignore sbteclipse plugin target folder
+.target
+
+# Ignore Tern plugin configuration file
+.tern-project
+
+# Ignore TeXlipse plugin configuration
+.texlipse
+
+# Ignore STS (Spring Tool Suite) configuration
+.springBeans
+
+# Ignore Code Recommenders files
+.recommenders/
+
+# Ignore generated files by annotation processing
+.apt_generated/
+.apt_generated_test/
+
+# Ignore Scala IDE specific files (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
